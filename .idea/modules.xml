@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ch01-hallowSpring/Ch01-hallowSpring.iml" filepath="$PROJECT_DIR$/Ch01-hallowSpring/Ch01-hallowSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch02-di-xml/Ch02-di-xml.iml" filepath="$PROJECT_DIR$/Ch02-di-xml/Ch02-di-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
     </modules>
   </component>

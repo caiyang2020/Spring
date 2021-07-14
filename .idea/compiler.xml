@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Ch02-di-xml" />
         <module name="Ch01-hallowSpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ch01-hallowSpring" target="1.8" />
+      <module name="Ch02-di-xml" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
