@@ -9,7 +9,7 @@
         di：给属性赋值
         1。set注入（设置注入）：spring调用set方法完成赋值
         简单注入-->
-        <bean id="student" class="org.example.student">
+        <bean id="student" class="org.example.ba01.student">
                 <property name="age" value="18"/>
                 <property name="name" value="小明"/>
         </bean>
