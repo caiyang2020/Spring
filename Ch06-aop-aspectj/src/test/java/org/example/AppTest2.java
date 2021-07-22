@@ -1,9 +1,6 @@
 package org.example;
 
-import static org.junit.Assert.assertTrue;
-
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
-import org.example.ba01.SomeService;
+import org.example.ba02.SomeService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -11,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest2
 {
     /**
      * Rigorous Test :-)
@@ -22,6 +19,7 @@ public class AppTest
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(config);
         SomeService service = (SomeService) applicationContext.getBean("someService");
         System.out.println(service.getClass().getName());
-        service.doSome("wangwu",18);
+        Object res=service.doOther("wangwu",18);
+        System.out.println(res);
 }
 }
